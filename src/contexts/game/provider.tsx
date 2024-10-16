@@ -55,8 +55,7 @@ type GameEntryStatus =
 
 export function getRandomProblem() {
   const randomIndex = Math.floor(Math.random() * problems.length);
-  // return problems[randomIndex];
-  return problems[6];
+  return problems[randomIndex];
 }
 
 export function newBoard(solution: string) {
