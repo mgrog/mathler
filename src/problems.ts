@@ -1,3 +1,4 @@
+/// Example problems for the mathler game
 const problems = [
   '119 - 41',
   '21 / 7 + 9',

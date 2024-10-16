@@ -1,5 +1,3 @@
-import { useGameContext } from '@contexts/game/context';
-
 export function expressionToArray(expr: string) {
   return expr.split('').filter((s) => s !== ' ');
 }
