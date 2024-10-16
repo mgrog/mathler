@@ -95,8 +95,6 @@ describe('App', () => {
       await user.keyboard('{Enter}');
     }
 
-    const board = screen.getByTestId('boardpiece-row-5-col-4');
-
     expect(
       screen.getByText(/Sorry, you've used up all your guesses!/i),
     ).toBeInTheDocument();
